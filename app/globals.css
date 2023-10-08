@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0%;
+  color: aliceblue;
+  
+}
+.card-1{
+  height:180px;
+  width:280px;
+  padding:10px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+  background-color: white;
+}
+.cards{
+  text-align: center;
+  justify-content:space-between;
+margin-top: 50px;
+}
