@@ -35,14 +35,14 @@ export default function navber() {
             <li className=" my-4 mx-4">
               <div className=" flex  w-[140px] h-10 text-center bg-blue-500  rounded-3xl py-2 hover:bg-blue-700 hover:scale-110">
                 <FaLaptopCode className=" mx-2 my-1"/>
-                <Link href="/Courses">Courses</Link>
+                <Link href="/courses">Courses</Link>
               </div>
             </li>
             <hr />
             <li className=" my-4 mx-4">
               <div className=" flex w-[140px] h-10 text-center bg-blue-500  rounded-3xl py-2 hover:bg-blue-700 hover:scale-110">
                 <RiPresentationFill className=" mx-2 my-1"/>
-                <Link href="/  Attendance">Attendance</Link>
+                <Link href="/attendence">Attendance</Link>
               </div>
             </li>
             <hr />

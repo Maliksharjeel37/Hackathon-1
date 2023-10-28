@@ -2,14 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body{
   margin: 0%;
   color: aliceblue;
   
 }
 .card-1{
-  height:180px;
-  width:280px;
+  height:390px;
+  width:300px;
   padding:10px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
@@ -19,4 +20,22 @@ body{
   text-align: center;
   justify-content:space-between;
 margin-top: 50px;
+}
+.Form{
+  display: flex;
+  background-image: url("/images/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+}
+.box{
+
+backdrop-filter: blur(80px);
+}
+input{
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid black;
 }

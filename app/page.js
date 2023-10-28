@@ -1,4 +1,7 @@
 import Navber from "./(componets)/SideNavber/navber";
+import {MdMarkEmailUnread} from "react-icons/Md"
+import {AiOutlineShoppingCart} from "react-icons/Ai"
+import Modal from"./(componets)/modalAttan/modal"
 export default function page() {
   return (
     <div className=" flex">
@@ -6,12 +9,17 @@ export default function page() {
 
 <Navber/>
   </div>
-  <div className=" cards flex">
-    <div className=" card-1 text-blue-700 hover:scale-110 mx-10">4441</div>
-    <div className=" card-1 text-blue-700 hover:scale-110 mx-10">2rrrrfffff</div>
-    <div className=" card-1 text-blue-700 hover:scale-110 mx-10">3ffff</div>
-    <div className=" card-1 text-blue-700 hover:scale-110 mx-10">4fffff</div>
-    </div>
+  <div className="navber flex">
+<div className="navber-text">
+<h1 className=" text-black">Dashboard</h1>
+
+</div>
+<div className="navber-icons flex ml-[1230px]">
+<MdMarkEmailUnread className=" text-black"/>
+<AiOutlineShoppingCart className=" text-black"/>
+<Modal/>
+</div>
+  </div>
     </div>
   );
-}
+};
